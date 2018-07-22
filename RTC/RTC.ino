@@ -4,8 +4,8 @@
 #include <WiFiUdp.h>
 #include <RtNTPClient.h>
 
-const char *ssid     = "Ramiro";
-const char *password = "123456789123456789";
+const char *ssid     = "REDACTED";
+const char *password = "REDACTED";
 const int timezone = -7 * 60 * 60;
 const int loopDelay = 50; // This is 2x the min resolution and its set to not overwhelm the display
 const int updateWithNTPClient = (30 * 60 * 1000) / loopDelay; // Update every 30 mins with NTP
